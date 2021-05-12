@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+	 crossorigin="anonymous">
+
+
+
+
+	<!--This is the header of the page -->
+	<title>PerfectWeather: Accurate Weather Forecast at your fingertips!</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="app">
+		<!--This is the header of the page -->
+		<h2>
+			<center>PerfectWeather: Accurate Weather Forecast at your fingertips!</center>
+		</h2>
+
+		<!--We will create a search bar and button in a header tag -->
+		<header>
+			<input type="text" placeholder="Search for a city..." class = "search-box" id = "search">
+
+      <button class = "search-button">Search</button>
+       
+      </header>
+      	<!--We will create dummy text in the page-->
+      <main class = "default">
+          <div class="weather loading">
+            <section class = "location">
+              <div class="city">Weather in Columbus</div>
+              <div class="date-time"><i>As of Wednesday 05/12/2021 at 5:00 pm</i></div>
+          </section>
+
+            <section class="current">
+             <div class="temp">49°F</div>
+              <div class="description">Rainy</div>
+              <div class="high-low">High-Low: 49&#176F/36&#176F</div>
+            </section>
+          </div>
+      </main>
+      </div>
+    </div>
+    
+  </body>
+   <script src="script.js" ></script>
+</html>
